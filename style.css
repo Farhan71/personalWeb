@@ -1,0 +1,136 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+.first-section {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    /* height: 800 px; */
+    /* width: 100%;
+    height: 40em;  */
+    overflow: hidden;
+    /* border: 2px solid red; */
+    background-size: cover; 
+    background-position: center center;
+}
+.half-width {
+    width: 45.5%;
+    height: 600px;
+    /* border: 2px solid red; */
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    
+}
+.text-center{
+    /* padding: 20% 15%; */
+    position: relative;
+    left: 20%;
+    top: 28%;
+}
+.text-center-bio{
+    position: relative;
+    left: 0%;
+    top: 25%;
+}
+h1 {
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+.anchor {
+    text-decoration: none;
+    /* font-size: 15px; */
+    font-weight: 900;
+    background-color: #f20db9;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.img-intro {
+    width: 80%;
+    height: 90%;
+}
+.img-bio {
+    width: 60%;
+    height: 80% ;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.name-light {
+    color: #f20db9;
+    font-weight: 900;
+}
+p {
+    color: dimgray;
+}
+.second-section {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.one-third-width{
+   padding-top: 60px;
+    margin: 2% 3.5%;
+    width: 26%;
+    height: 300px;
+    float: left;
+    /* border: 2px solid red; */
+}
+.img-work{
+    width: 100%;
+    height: 100%;
+}
+.third-section {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center center;
+    height: 600px;
+    /* border: 2px solid red; */
+}
+#work-header {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.text-fourth-section {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.fourth-section {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center center;
+    height: 500px;
+}
+.contact {
+    /* size: 200px; */
+    /* height: 30px; */
+    width: 500px;
+    font-weight: 500;
+    /* background-color: #f20db9; */
+    background-image: linear-gradient(to right, #d92680 , 	#ff00bf);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    
+    
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
